@@ -17,6 +17,9 @@
     </table>
 </template>
 
-<script>
-
+<script setup>
+defineProps({
+  items: Array,
+  columns: Array
+})
 </script>
